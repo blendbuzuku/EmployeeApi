@@ -1,0 +1,369 @@
+# Build output
+/bin/
+/obj/
+/out/
+/build/
+/publish/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results of an Azure ML experiment
+/.aml/
+
+# Ignore visual studio live share
+/.vs/
+
+# Ignore local history
+/.history/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Log files
+*.log
+*.txt
+/logs/
+*.trace
+*.diag
+*.diagconfig
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Entity Framework
+/Migrations/
+/*.db
+/*.db-shm
+/*.db-wal
+/app.db
+/app.db-shm
+/app.db-wal
+
+# Test results
+/TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.coveragejson
+*.coveragexml
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build Results of an Azure ML experiment
+aml-*.zip
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Core
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+*.local.json
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Chutzpah Test files
+_Chutzpah*
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Trace & Performance Analysis files
+*.vsdiag
+*.perf
+*.perfview
+
+# TFS 2012 Local Workspace
+tfspreview.local
+tfssa.tfspreview.local
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JustCode is a .NET coding add-in
+.JustCode
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# AxoCover is a Code Coverage Tool
+.axoCover/*
+!.axoCover/settings.json
+
+# Coverlet is a Code Coverage Tool
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Web workbench (sass)
+.sass-cache/
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Hx2r*
+DocProject/Help/aliases
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# Windows Azure Emulator
+emulator-logs/
+azure/
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# LocalDB files
+*.mdf
+*.ldf
+
+# Cache files
+*.cache
+*.tmp
+
+# Intermediate files
+*.i.cs
+*.i.c
+*.i.h
+*.i.cpp
+
+# Publish profiles
+*.pubxml
+*.pubxml.user
+*.pubxml.user
+
+# Service Fabric
+*.sfproj
+
+# Local history for Visual Studio
+.history/
+
+# Pester Temporary files
+TestDrive
+*.har
+
+# OpenCover
+*.OpenCover.xml
+*.opencover.xml
+
+# Benchmark.NET
+BenchmarkDotNet.Artifacts/
+
+# Visual Studio 2022
+*.vcxproj.user
+*.vcxproj.filters
+
+# Visual Studio shared files
+*.shareditems
+*.sharedproj
+*.shareditems.props
+*.shareditems.targets
+*.sharedproj.user
+
+# Windows
+*.dll
+*.exe
+*.exe.config
+*.dll.config
+*.pdb
+*.cache
+*.resources
+*.manifest
+*.pri
+*.xml.original
+
+# Linux
+*.pid
+*.lock
+*.socket
+
+# macOS
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+._*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Uploaded files (keep the folder structure but ignore the files)
+/wwwroot/uploads/
+!/wwwroot/uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+Logs/
+
+# Certificates
+*.pfx
+*.p12
+*.cer
+*.crt
+*.key
+*.pem
+
+# User secrets
+secrets.json
+*secrets.json
+*Secrets.json
+
+# Azure Functions
+.local/
+bin/
+obj/
+*.vscode/
+.vs/
+*.user
+*.suo
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Azure Static Web Apps
+.swa/
+
+# Dapr
+.dapr/
+
+# Benchmark results
+BenchmarkDotNet.Artifacts/
+
+# Local tool manifest
+.dotnet-tools.json
+
+# AOT compilation intermediate files
+*.aotprofile
+*.aotdata
